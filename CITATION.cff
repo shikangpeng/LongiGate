@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the following metadata."
+title: "LongiGate"
+authors:
+  - family-names: Shikang
+    given-names: Peng
+    orcid: https://orcid.org/0000-0002-0969-9642
+date-released: 2025-04-20
+version: 1.0.0
+doi:
+repository-code: https://github.com/

@@ -9,7 +9,7 @@ This ensures participants can return for their follow-up session without issues.
 
 ---
 
-## 🧩 Overview
+## Overview
 
 This toolkit ensures:
 

@@ -10,8 +10,7 @@
 // This function should be coupled with the cookie approach as both are used with the assumption that participants may randomly open your study link
 // Thus multiple submission should be enabled.
 
-
-
+ 
 function getFormattedDateTime(offsetHours = 0) {
     const now = new Date();
     now.setHours(now.getHours() + offsetHours);
@@ -36,7 +35,7 @@ async function checkSessionTime() {
     try {
         const response = await fetch(subjectTimePath);
         if (!response.ok) {
-            console.log("⚠️ Subject time file not found.");
+            console.log("Subject time file not found.");
             pre_timeline.unshift(createTimeErrorScreen("UNKNOWN TIME"));
             return false;
         }
@@ -51,7 +50,7 @@ async function checkSessionTime() {
         }
 
         if (!parsed.data || parsed.data.length === 0 || !parsed.data[0].time_ses2) {
-            console.log("⚠️ No valid session time found in CSV.");
+            console.log("No valid session time found in CSV.");
             pre_timeline.unshift(createTimeErrorScreen("UNKNOWN TIME"));
             return false;
         }
