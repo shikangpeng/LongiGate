@@ -35,6 +35,7 @@ A JavaScript utility to detect the subject’s timestamp.
 <div align="center">
   <img src="./assets/timeDetect.png" width="400"/>
 </div>
+
 ---
 
 ### 2. `cookieRepetitionBlock.js`
@@ -43,6 +44,8 @@ A JavaScript utility to detect the subject’s timestamp.
 <div align="center">
   <img src="./assets/RepetitionBlock.png" width="400"/>
 </div>
+
+---
 
 ### 3. `timeStamp.py`
 A Python script that generates the expected timestamp file for each subject’s Session 2 access.  
