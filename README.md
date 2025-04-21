@@ -30,7 +30,7 @@ This toolkit ensures:
 A JavaScript utility to detect the subject’s timestamp.  
 - Allows entry only if the current time matches the expected Session 2 date/time  
 - Otherwise, shows a message instructing them when to return
-- *Optional:* For non-dependent condition, you may use an API or GoogleSheet to update timestamps.
+- *Optional:* For non-dependent condition, you may use an API or GoogleSheet to update timestamps. Or integrate the timeStamp.js with cookieRepetitionBlock.js so the script can read timestamp info in the cookie.
 
 <div align="center">
   <img src="./assets/timeDetect.png" width="400"/>
@@ -49,7 +49,6 @@ A JavaScript utility to detect the subject’s timestamp.
 
 ### 3. `timeStamp.py`
 A Python script that generates the expected timestamp file for each subject’s Session 2 access.  
-- *Optional:* If your experiment doesn't need Session 1 → Session 2 stimulus linkage, you can swap this out for an API or Google Sheet solution.
 
 ---
 
