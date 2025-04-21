@@ -6,6 +6,7 @@ Ideal for experiments where **Session 2 stimuli depend on behavior or data from 
 
 To allow **LongiGate** to work effectively, it's recommended to enable **"Allow multiple submissions"** in your **Prolific** study settings.  
 This ensures participants can return for their follow-up session without issues.
+**Recording Prolific IDs -> URL parameters** should be enabled to enable subject tracking
 
 **Citation**
 If you use this code in your research, please cite:
@@ -29,6 +30,9 @@ This toolkit ensures:
 A JavaScript utility to detect the subject’s timestamp.  
 - Allows entry only if the current time matches the expected Session 2 date/time  
 - Otherwise, shows a message instructing them when to return
+- *Optional:* For non-dependent condition, you may use an API or GoogleSheet to update timestamps.
+
+<img src="./assets/timeDetect.png" width="400"/>
 
 ---
 
@@ -36,7 +40,7 @@ A JavaScript utility to detect the subject’s timestamp.
 - Blocks subjects from restarting the experiment after technical interruptions (e.g., page refresh).  
 - Ensures data integrity by preventing multiple attempts from the same subject.
 
----
+<img src="./assets/RepetitionBlock.png" width="400"/>
 
 ### 3. `timeStamp.py`
 A Python script that generates the expected timestamp file for each subject’s Session 2 access.  
