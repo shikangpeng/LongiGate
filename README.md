@@ -7,6 +7,10 @@ Ideal for experiments where **Session 2 stimuli depend on behavior or data from 
 To allow **LongiGate** to work effectively, it's recommended to enable **"Allow multiple submissions"** in your **Prolific** study settings.  
 This ensures participants can return for their follow-up session without issues.
 
+**Citation**
+If you use this code in your research, please cite:
+Peng, S. (2025). *LongiGate* (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.15253316
+
 ---
 
 ## Overview
