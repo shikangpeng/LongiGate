@@ -32,15 +32,17 @@ A JavaScript utility to detect the subject’s timestamp.
 - Otherwise, shows a message instructing them when to return
 - *Optional:* For non-dependent condition, you may use an API or GoogleSheet to update timestamps.
 
-<img src="./assets/timeDetect.png" width="400"/>
-
+<div align="center">
+  <img src="./assets/timeDetect.png" width="400"/>
+</div>
 ---
 
 ### 2. `cookieRepetitionBlock.js`
 - Blocks subjects from restarting the experiment after technical interruptions (e.g., page refresh).  
 - Ensures data integrity by preventing multiple attempts from the same subject.
-
-<img src="./assets/RepetitionBlock.png" width="400"/>
+<div align="center">
+  <img src="./assets/RepetitionBlock.png" width="400"/>
+</div>
 
 ### 3. `timeStamp.py`
 A Python script that generates the expected timestamp file for each subject’s Session 2 access.  
